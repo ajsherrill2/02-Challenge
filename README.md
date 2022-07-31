@@ -34,12 +34,18 @@ changing "div" under "aside" to "section" sematic elements
 changing "div" to "footer"
 adding "alt" attributes to every image/icon
 moving "class" attributes towards the front of every "img" attribute
-
+within the <aside> every section class was made the same in order to consolidate the respective css selector
+within the <main> every section class was made the same in order to consolidate the respective css selector
+within <main> id's were irrelevant and removed
 ```
 
 # My Changes to CSS
 
 ```
+Consolidated ".benefit-xxx" to just ".lead-brand-cost"
+Consolidated ".benefit-xxx h3" to just ".lead-brand-cost h3"
+Consolidated ".benefit-xxx img" to just ".lead-brand-cost img"
+Consolidating all class pertaining to search engine, online reputation, and social media to the same class ".search-online-social"
 removing ".seo" for "header h1"
 changing div to ul since ul replaced divs container for ".header ul"
 changing div to nav for ".header nav ul"
