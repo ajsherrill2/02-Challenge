@@ -1,27 +1,32 @@
+/* Style for box-sizing is a bordered box
+with 0 padding and 0 margin */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Style for the body will be hex code color */
 body {
     background-color: #d9dcd6;
 }
 
-header {
+/* Style for the header will have a 20px padding,
+" */
+.header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-h1 {
+.header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
-ul {
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -29,19 +34,15 @@ ul {
     font-size: 20px;
     list-style-type: none;
 }
-
-li {
+    
+.header li {
     display: inline-block;
     margin-left: 25px;
 }
 
-a {
+.header a {
     color: #ffffff;
     text-decoration: none;
-}
-
-p {
-    font-size: 16px;
 }
 
 .hero {
@@ -51,6 +52,16 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.content p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -63,12 +74,6 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -78,25 +83,6 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-}
-
-/* Consolidated ".benefit-xxx" to ".lead-brand-cost" */
-.lead-brand-cost {
-    margin-bottom: 32px;
-    color: #ffffff;   
-}
-
-/* Consolidated ".benefit-xxx h3" to ".lead-brand-cost h3" */
-.lead-brand-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-/* Consolidated ".benefit-xxx img" to ".lead-brand-cost img" */
-.lead-brand-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;  
 }
 
 /* Consolidated (.search-engine-optimization)(.online-reputation-management)(.social-media-marketing) */
@@ -118,6 +104,25 @@ p {
 .search-online-social h2 {
     margin-bottom: 20px;
     font-size: 36px;
+}
+
+/* Consolidated ".benefit-xxx" to ".lead-brand-cost" */
+.lead-brand-cost {
+    margin-bottom: 32px;
+    color: #ffffff;   
+}
+
+/* Consolidated ".benefit-xxx h3" to ".lead-brand-cost h3" */
+.lead-brand-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Consolidated ".benefit-xxx img" to ".lead-brand-cost img" */
+.lead-brand-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;  
 }
 
 .footer {
