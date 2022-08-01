@@ -1,18 +1,21 @@
-/* Style for box-sizing is a bordered box
-with 0 padding and 0 margin */
+/* UNIVERSAL */
+/* Styling across the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
-/* Style for the body will be hex code color */
+/*-------------------------------------------------------------------------------------------------------------*/
+/* BODY */
+/* Style for the body's background color */
 body {
     background-color: #d9dcd6;
 }
 
-/* Style for the header will have a 20px padding,
-" */
+/*-------------------------------------------------------------------------------------------------------------*/
+/* HEADER */
+/* Styling for the header */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,12 +23,14 @@ body {
     color: #ffffff;
 }
 
+/* Styling for just the text "Horiseon" */
 .header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
 
+/* Styling for just the nav section of the header  */
 .header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -34,17 +39,24 @@ body {
     font-size: 20px;
     list-style-type: none;
 }
-    
+
+/* Styling in order for the list items to 
+display inline-block with just a left side 
+margin*/
 .header li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* Styling for interior navigation hyperlink */
 .header a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <FIGURE> */
+/* Styling for the class hero which is a background image */
 .hero {
     height: 800px;
     width: 100%;
@@ -54,26 +66,58 @@ body {
     background-position: center;
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <MAIN> */
+/* Styling for the class "content" */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Styling for just the p element under the class "content" */
 .content p {
     font-size: 16px;
 }
 
+/* Styling for the images to float left */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* Styling for the images to float right */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* Styling for the text, margin, and padding 
+of the text box's in the <main>  */
+.search-online-social {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Styling for the images in the <main> */
+.search-online-social img {
+    max-height: 200px;
+}
+
+
+/* Styling for the header in the <main> */
+.search-online-social h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/*-------------------------------------------------------------------------------------------------------------*/
+/* <ASIDE> */
+/* Styling for the class "benefits" */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -85,46 +129,28 @@ body {
     background-color: #2589bd;
 }
 
-/* Consolidated (.search-engine-optimization)(.online-reputation-management)(.social-media-marketing) */
-.search-online-social {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-/* Consolidated (.search-engine-optimization img)(.online-reputation-management img)(.social-media-marketing img)*/
-.search-online-social img {
-    max-height: 200px;
-}
-
-/* Consolidated (.search-engine-optimization h2)(.online-reputation-management h2)(.social-media-marketing h2)*/
-.search-online-social h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-/* Consolidated ".benefit-xxx" to ".lead-brand-cost" */
+/* Styling for each section in the <aside> */
 .lead-brand-cost {
     margin-bottom: 32px;
     color: #ffffff;   
 }
 
-/* Consolidated ".benefit-xxx h3" to ".lead-brand-cost h3" */
+/* Styling for each header in the <aside> */
 .lead-brand-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-/* Consolidated ".benefit-xxx img" to ".lead-brand-cost img" */
+/* Stying for each img in the <aside> */
 .lead-brand-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;  
 }
 
+/*-------------------------------------------------------------------------------------------------------------*/
+/* FOOTER */
+/* Styling for the class "footer" */
 .footer {
     padding: 30px;
     clear: both;
@@ -132,6 +158,7 @@ body {
     text-align: center;
 }
 
+/* Styling for the header in class "footer" */
 .footer h2 {
     font-size: 20px;
 }
