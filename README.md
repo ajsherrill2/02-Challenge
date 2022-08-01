@@ -5,6 +5,11 @@ Refactor Web Page
 ## Desription
 
 The new and standardized webpage for Horiseon now is optimized with semantic HTML elements following a more logical structure not tethered to positioning and styles. You will also find that every image now has a an accessible alt attribute, and each heading attribute fall in sequential order based upon there sections. Lastly the title element know reads a more concise, descriptive title.
+
+```
+![New semantic html file](./assets/images/screenshot-1.png)
+```
+
 ### My changes to HTML
 
 ```
