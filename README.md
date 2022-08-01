@@ -2,21 +2,9 @@
 
 Refactor Web Page
 
-## Acceptance Criteria
+## Desription
 
-* GIVEN a webpage meets accessibility standards
-* WHEN I view the source code
-* THEN I find semantic HTML elements
-* WHEN I view the structure of the HTML elements
-* THEN I find that the elements follow a logical structure independent of styling and positioning
-* WHEN I view the icon and image elements
-* THEN I find accessible alt attributes
-* WHEN I view the heading attributes
-* THEN they fall in sequential order
-* WHEN I view the title element
-* THEN I find a concise, descriptive title
-
-
+The new and standardized webpage for Horiseon now is optimized with semantic HTML elements following a more logical structure not tethered to positioning and styles. You will also find that every image now has a an accessible alt attribute, and each heading attribute fall in sequential order based upon there sections. Lastly the title element know reads a more concise, descriptive title.
 ### My changes to HTML
 
 ```
