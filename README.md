@@ -8,11 +8,12 @@ The new and standardized webpage for Horiseon now is optimized with semantic HTM
 
 ![New semantic html file](./assets/images/screenshot-1.png)
 
-![New semantic html file](./assets/images/screenshot-2.png)
+![New semantic html file](./assets/images/screenshot-3.png)
 
 ### My changes to HTML
 
 ```
+Changed each h element to correct number in each sub section after the section containing the h1 element
 Changing non-samantic element "div" to samantic element "header"
 getting rid of "span" element and using "h1" as the selector on css page
 getting rid of "div" and keeping "ul" and adjusting indentation for "<ul></ul>"
@@ -33,8 +34,9 @@ within <main> id's were irrelevant and removed
 ### My Changes to CSS
 
 ```
+Changed the respective h elements in the CSS file to correlate with the new layout of the HTML file
 Consolidated ".benefit-xxx" to just ".lead-brand-cost"
-Consolidated ".benefit-xxx h3" to just ".lead-brand-cost h3"
+Consolidated ".benefit-xxx h3" to just ".lead-brand-cost h2"
 Consolidated ".benefit-xxx img" to just ".lead-brand-cost img"
 Consolidating all class pertaining to search engine, online reputation, and social media to the same class ".search-online-social"
 Consolidating all .header selectors
