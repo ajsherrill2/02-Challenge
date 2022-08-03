@@ -1,4 +1,4 @@
-# 02-Challenge
+# Challenge-1-Refactoring
 
 In this assignment I have been tasked with an on-the-job ticket to refactor a webpage in order to reach accessiblity standards.
 
