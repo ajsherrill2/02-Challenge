@@ -136,9 +136,10 @@ of the text box's in the <main>  */
 }
 
 /* Styling for each header in the <aside> */
-.lead-brand-cost h3 {
+.lead-brand-cost h2 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 18.72px;
 }
 
 /* Stying for each img in the <aside> */
