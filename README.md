@@ -1,6 +1,7 @@
 # 02-Challenge
 
-Refactor Web Page
+In this assignment I have been tasked with an on-the-job ticket to refactor a webpage in order to reach accessiblity standards.
+
 
 ## Desription
 
@@ -9,6 +10,9 @@ The new and standardized webpage for Horiseon now is optimized with semantic HTM
 ![New semantic html file](./assets/images/screenshot-1.png)
 
 ![New semantic html file](./assets/images/screenshot-3.png)
+
+Deployed Application:
+[https://ajsherrill2.github.io/Challenge-1-Refactoring/](https://ajsherrill2.github.io/Challenge-1-Refactoring/)
 
 ### My changes to HTML
 
